@@ -1,0 +1,605 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+a {
+    color: #0563bb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #067ded;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+}
+.offcanvas {
+    transition: transform 1.3s ease-in-out;
+}
+.shadow1 {
+    box-shadow: 0px 2px 10px rgba(58, 53, 65, 0.1);
+}
+.sidebar-wrapper{
+    margin-top: 20px;
+}
+
+.name {
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.logo1{
+    padding-top: 20px;
+    text-align: center;
+}
+.logo1 a {
+    font-size: 19px;
+    text-align: center;
+    padding: 11px 0;
+    display: inline-block;
+    margin-right: 4px;
+    background: #434657;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 1.0s;
+}
+
+.logo1 a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btncv:hover{
+   background-color: rgb(210 43 5 / 53%);
+    color:rgb(255, 255, 255);
+    transition: 1.0s;
+}
+.btncv{
+    border: 4px solid;
+    background: transparent;
+    border-color: #d22b05;
+    color: #fff;
+    padding:10px 10px ;
+    font-weight: bold;
+}
+.nav-menu {
+    margin-top: 50px;
+}
+
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.profileImg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 7px solid white;
+    border-radius: 50%;
+}
+.btn:focus {
+    outline: 0;
+}
+.sdiv{
+    border: 1px solid;
+    border-top-right-radius : 5px;
+    border-bottom-right-radius : 5px;
+}
+
+.span1:hover {
+    color: #fff;
+}
+
+li a:hover {
+    color: #149ddd;
+}
+.span1:active {
+    color: #fff;
+}
+li a:active {
+    color: #149ddd;
+}
+ul li a{
+    font-size: 15px;
+}
+ul li i{
+    padding-right: 15px;
+}
+
+.name2{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+.designation{
+    font-size: 40px;
+}
+
+#home
+{
+    height: 159vh;
+    background-size: cover;
+    background-image: linear-gradient(rgb(53 48 48 / 50%), rgba(0, 0, 0, 0.5)), url(../imgs/omkar.jpg);
+}
+#home span::before {
+    content: "Developer";
+    animation: animate infinite 10s;
+    color: #040b14;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Developer";
+        color:#040b14;
+        transition: 1.0s;
+    }
+
+    50% {
+        content: "Photographer";
+        color: #040b14;
+        transition: 1.0s;
+    }
+
+    75% {
+        content: "Motivator";
+        color: #040b14;
+        transition: 1.0s;
+    }
+}
+
+#work{
+    background: #f5f8fd;
+}
+#home p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+}
+.name1{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+section{
+    padding: 30px 0;
+    overflow: hidden;
+}
+.section-title {
+    padding-bottom: 30px;
+}
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.section-title h2::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.section-title p{
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.row .col-lg-4 img{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+.content h3{
+    font-weight: bold;
+    color: #173b6c;
+}
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.about .content ul strong {
+    margin-right: 10px;
+}
+.skills{
+    background-color: #f5f8fd;;
+}
+.column-wrapper{
+    margin: 15px 0;
+}
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.column-wrapper2{
+    padding: 0 0 20px 20px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+}
+.column-wrapper2::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+}
+.column-wrapper2 h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.column-wrapper2 h6{
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.column-wrapper2 p:last-child{
+    padding-top: 16px;
+}
+.column-wrapper2 ul li{
+margin: 10px 0;
+}
+
+.portfolio-subtitle h2{
+    font-weight: bolder;
+}
+.column-wrapper3:hover{
+    background: #e4edf9
+}
+.btn1{
+    font-weight: bold;
+    background: transparent;
+    border-color: #040b14;
+    color: #040b14;
+    padding:10px 10px ;
+    white-space: nowrap;
+}
+.btn1:hover {
+    background-color: #040b14;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 1.0s;
+}
+.work{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.column-wrapper3 {
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.form-wrappper{
+    padding: 20px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;    
+}
+.myself{
+    padding: 20px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;    
+}
+.logo3 i{
+    background-color: #e4edf9;
+    padding: 8px 15px;
+    border-radius: 50%;
+    font-size: 32px;
+}
+.logo3 i:hover{
+    background-color: #149ddd;
+    transition: 1.0s;
+    color: #e4edf9;
+}
+.para2{
+    padding-left: 60px;
+    width: 100%;
+}
+.progress{
+    background-color: rgb(160, 159, 159);
+}
+.progress-bar{
+    background-color: #173b6c;
+}
+footer h5{
+font-size: 15px;
+}
+
+
+/* media 576 */
+
+
+
+@media  (max-width: 576px){ 
+    .logo1 {
+        padding-top: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 230px;
+        transition: all ease-in-out 0.5s;
+        z-index: 9997;
+        transition: all 0.5s;
+        padding: 0 15px;
+        background: #040b14;
+        overflow-y: auto;
+    }
+    .offcanvas {
+        position: fixed;
+        bottom: 0;
+        z-index: 30;
+        display: flex;
+        flex-direction: column;
+        max-width: 55%;
+        visibility: hidden;
+        background-color: #fff;
+        background-clip: padding-box;
+        outline: 0;
+        transition: transform 1.3s ease-in-out;
+    }
+.name1{
+        font-size: 23px;   
+     }
+     
+     #home
+     {
+        width: 100%;
+        height: 30vh;
+        background-size: cover;
+        background-image: linear-gradient(rgb(53 48 48 / 50%), rgba(0, 0, 0, 0.5)), url(../imgs/omkar.jpg);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+#home p {
+        color: #fff;
+        font-weight: 700;
+        font-size: 20px;
+    }
+#home span::before {
+        content: "Developer";
+        animation: animate infinite 10s;
+        color: #040b14;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .btn1 {
+        font-weight: bold;
+        background: transparent;
+        border-color: #040b14;
+        color: #040b14;
+        padding: 5px 5px;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    section {
+        padding: 30px 0;
+        overflow: hidden;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin: 20px 0px;
+    }
+ .row .col-lg-4 img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+ .btncv {
+    border: 4px solid;
+    background: transparent;
+    border-color: #d22b05;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.section-title h2 {
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.logo3 i {
+    background-color: #e4edf9;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+}
+
+
+
+/* media 767  */
+
+
+@media   (min-width: 577px)and  (max-width: 992px) { 
+    .logo1 {
+        padding-top: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 230px;
+        transition: all ease-in-out 0.5s;
+        z-index: 9997;
+        transition: all 0.5s;
+        padding: 0 15px;
+        background: #040b14;
+        overflow-y: auto;
+    }
+    .offcanvas {
+        position: fixed;
+        bottom: 0;
+        z-index: 30;
+        display: flex;
+        flex-direction: column;
+        max-width: 55%;
+        visibility: hidden;
+        background-color: #fff;
+        background-clip: padding-box;
+        outline: 0;
+        transition: transform 1.3s ease-in-out;
+    }
+.name1{
+        font-size: 19px;   
+     }
+     
+     #home
+     {
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+        background-image: linear-gradient(rgb(53 48 48 / 50%), rgba(0, 0, 0, 0.5)), url(../imgs/omkar.jpg);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+#home p {
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px;
+    }
+#home span::before {
+        content: "Developer";
+        animation: animate infinite 10s;
+        color: #040b14;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .btn1 {
+        font-weight: bold;
+        background: transparent;
+        border-color: #173b6c;
+        color: #173b6c;
+        padding: 5px 5px;
+        font-size: 12px;
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+    section {
+        padding: 30px 0;
+        overflow: hidden;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin: 20px 0px;
+    }
+    .section-title p {
+        font-size: 14px;
+    }
+    .row .col-lg-4 img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 100%;
+    }
+ .btncv {
+    border: 4px solid;
+    background: transparent;
+    border-color: #d22b05;
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+ul{
+    font-size: 13px;
+}
+.content h3{
+    font-size: 20px;
+}
+.content p{
+    font-size: 16px;
+}
+.section-title h2 {
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.progress {
+    background-color: #e9ecef;
+    border-radius: 50px;
+ }
+.progress-bar{
+    background-color: #040b14;
+    border-radius: 50px;
+ } 
+.para2 {
+        padding-left: 40px;
+        width: 50%;
+    }
+
+}
+
+
+
